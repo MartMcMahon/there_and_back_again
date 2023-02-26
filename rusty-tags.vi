@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Body	/Users/mart/code/gbjam_23_2/src/main.rs	/^struct Body {$/;"	s
+CAMERA_DIST	/Users/mart/code/gbjam_23_2/src/main.rs	/^const CAMERA_DIST: f32 = 20.0;$/;"	c
+ColorText	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^struct ColorText;$/;"	s
+DebugText	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^pub struct DebugText;$/;"	s
+DebugValue	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^pub struct DebugValue(pub Vec3);$/;"	s
+EXTENSIONS	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^        static EXTENSIONS: &[&str] = &["obj"];$/;"	c
+FlyCam	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^pub struct FlyCam;$/;"	s
+FpsText	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^struct FpsText;$/;"	s
+GRAV_CONST	/Users/mart/code/gbjam_23_2/src/main.rs	/^const GRAV_CONST: f32 = 6.7;$/;"	c
+InputState	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^struct InputState {$/;"	s
+MeshIndices	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^struct MeshIndices {$/;"	s
+MovementSettings	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^pub struct MovementSettings {$/;"	s
+MovesAround	/Users/mart/code/gbjam_23_2/src/main.rs	/^struct MovesAround;$/;"	s
+NoCameraPlayerPlugin	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^pub struct NoCameraPlayerPlugin;$/;"	s
+ObjError	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^pub enum ObjError {$/;"	g
+ObjLoader	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^pub struct ObjLoader;$/;"	s
+ObjPlugin	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/lib.rs	/^pub struct ObjPlugin;$/;"	s
+Planet	/Users/mart/code/gbjam_23_2/src/main.rs	/^struct Planet {$/;"	s
+Player	/Users/mart/code/gbjam_23_2/src/main.rs	/^struct Player {$/;"	s
+PlayerPlugin	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^pub struct PlayerPlugin;$/;"	s
+REGULAR_FONT_PATH	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^const REGULAR_FONT_PATH: &str = "fonts\/Roboto-Medium.ttf"; \/\/ FiraSans-Bold.ttf$/;"	c
+SPEED_SCALE	/Users/mart/code/gbjam_23_2/src/main.rs	/^const SPEED_SCALE: f32 = 0.1;$/;"	c
+VertexKey	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^type VertexKey = (usize, usize, usize);$/;"	T
+accelerate_player	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn accelerate_player(mut query: Query<(&mut Body, &mut Transform, &mut Player)>) {$/;"	f
+build	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^    fn build(&self, app: &mut App) {$/;"	f
+build	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/lib.rs	/^    fn build(&self, app: &mut App) {$/;"	f
+build	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^    fn build(&self, app: &mut App) {$/;"	f
+calculate_normal	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^fn calculate_normal(raw: &RawObj, polygon: &[usize]) -> [f32; 3] {$/;"	f
+calulate_grav	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn calulate_grav($/;"	f
+convert_normal	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^fn convert_normal(raw: &RawObj, index: usize) -> [f32; 3] {$/;"	f
+convert_position	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^fn convert_position(raw: &RawObj, index: usize) -> [f32; 3] {$/;"	f
+convert_texture	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^fn convert_texture(raw: &RawObj, index: usize) -> [f32; 2] {$/;"	f
+cursor_grab	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn cursor_grab(keys: Res<Input<KeyCode>>, mut windows: ResMut<Windows>) {$/;"	f
+default	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^    fn default() -> Self {$/;"	f
+extensions	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^    fn extensions(&self) -> &[&str] {$/;"	f
+from	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^    fn from(val: MeshIndices) -> Self {$/;"	f
+initial_grab_cursor	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn initial_grab_cursor(mut windows: ResMut<Windows>) {$/;"	f
+insert	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^    pub fn insert<F: FnOnce()>(&mut self, key: VertexKey, create_vertex: F) {$/;"	f
+keyboard_input	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn keyboard_input(keys: Res<Input<KeyCode>>, mut query: Query<&mut Player, With<Body>>) {$/;"	f
+load	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^    fn load<'a>($/;"	f
+load_obj	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^async fn load_obj<'a, 'b>($/;"	f
+load_obj_from_bytes	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^pub fn load_obj_from_bytes(bytes: &[u8]) -> Result<Mesh, ObjError> {$/;"	f
+main	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn main() {$/;"	f
+move_bodies	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn move_bodies(mut query: Query<(&Body, &mut Transform)>) {$/;"	f
+new	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_obj-0.9.1/src/loader.rs	/^    pub fn new(capacity: usize) -> Self {$/;"	f
+player_look	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn player_look($/;"	f
+player_move	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn player_move($/;"	f
+scroll_events	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn scroll_events($/;"	f
+setup	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {$/;"	f
+setup	/Users/mart/code/gbjam_23_2/src/main.rs	/^fn setup($/;"	f
+setup_hexagon	/Users/mart/code/gbjam_23_2/src/failed_player_meshes.rs	/^fn setup_hexagon($/;"	f
+setup_player	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn setup_player(mut commands: Commands) {$/;"	f
+setup_triangle_mesh	/Users/mart/code/gbjam_23_2/src/failed_player_meshes.rs	/^fn setup_triangle_mesh($/;"	f
+text_color_system	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^fn text_color_system($/;"	f
+text_update_system	/Users/mart/code/gbjam_23_2/src/debug_text.rs	/^fn text_update_system(diagnostics: Res<Diagnostics>, mut query: Query<&mut Text, With<FpsText>>) {$/;"	f
+toggle_grab_cursor	/Users/mart/.cargo/registry/src/github.com-1ecc6299db9ec823/bevy_flycam-0.9.0/src/lib.rs	/^fn toggle_grab_cursor(window: &mut Window) {$/;"	f
